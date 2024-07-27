@@ -1,0 +1,13 @@
+{
+    "name": "Aditya's AdBlocker",
+    "version": "1.0.0",
+    "description": "A fun DIY AD-Blocker",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+         "48": "icons/48x48.png"
+    },
+    "manifest_version": 2
+}
